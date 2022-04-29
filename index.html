@@ -19,23 +19,31 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
-  <body>
-    <section class="grid grid-cols-1 place-items-center px-5 py-20">
+  <body class="bg-veryLightGray">
+    <section
+      class="grid grid-cols-1 place-items-center px-5 py-20 lg:grid-cols-3 lg:px-64"
+    >
       <!-- item 1 -->
-      <div class="rounded-t-lg bg-brightOrange p-12">
+      <div
+        class="rounded-t-lg bg-brightOrange p-12 lg:rounded-t-none lg:rounded-tl-lg lg:rounded-bl-lg"
+      >
         <img src="/images/icon-sedans.svg" alt="sedan icon" />
-        <h1 class="py-5 text-3xl text-veryLightGray">SEDANS</h1>
-        <p class="pb-8 text-transparentWhite">
+        <h1 class="py-5 text-3xl text-veryLightGray lg:py-9 lg:text-4xl">
+          SEDANS
+        </h1>
+        <p class="pb-8 text-transparentWhite lg:pb-20">
           Choose a sedan for its affordability and excellent fuel economy. Ideal
           for cruising in the city or on your next road trip.
         </p>
         <!-- button -->
-        <a
-          href="/#"
-          class="rounded-full bg-veryLightGray py-4 px-8 text-brightOrange"
-        >
-          Learn More
-        </a>
+        <div class="lg:py-4">
+          <a
+            href="/#"
+            class="rounded-full bg-veryLightGray py-4 px-8 text-brightOrange"
+          >
+            Learn More
+          </a>
+        </div>
       </div>
 
       <!-- item 2 -->
@@ -56,7 +64,9 @@
       </div>
 
       <!-- item 3 -->
-      <div class="rounded-b-lg bg-veryDarkCyan p-12">
+      <div
+        class="rounded-b-lg bg-veryDarkCyan p-12 lg:rounded-b-none lg:rounded-tr-lg lg:rounded-br-lg"
+      >
         <img src="/images/icon-luxury.svg" alt="luxury icon" />
         <h1 class="py-5 text-3xl text-veryLightGray">LUXURY</h1>
         <p class="pb-8 text-transparentWhite">
