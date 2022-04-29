@@ -11,6 +11,9 @@ module.exports = {
         //background, headings, buttons
         veryLightGray: 'hsl(0, 0%, 95%)',
       },
+      fontSize: {
+        base: '14px',
+      },
       fontFamily: {
         cursive: ['Big Shoulders Display'],
         'sans-serif': ['Lexend Deca'],
