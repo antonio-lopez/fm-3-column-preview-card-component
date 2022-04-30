@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-tailwind-css-BkYKng9r5)
+- [Live Site](https://antonio-3-column-preview-card.netlify.app/)
 
 ## My process
 
